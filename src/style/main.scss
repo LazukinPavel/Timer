@@ -1,0 +1,33 @@
+@import 'partials/global/normalize';
+
+body {
+	height: 100vh;
+}
+
+.main {
+	width: 30%;
+	margin: auto;
+}
+
+.title {
+	text-align: center;
+}
+
+.counter-display {
+	font-size: 10vw;
+	text-align: center;
+}
+
+.set-time {
+	width: 100%;
+	margin-bottom: 5%;
+}
+
+.set-time__input {
+	width: 100%;
+}
+
+.control-buttons {
+	display: flex;
+	justify-content: space-between;
+}
