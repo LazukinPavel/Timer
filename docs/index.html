@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<link rel="stylesheet" href="style/main.css">
+
+	<title>My Timer</title>
+</head>
+<body>
+	<div class="main">
+		<h1 class="title">Meditation Timer</h1>
+		<div id="counter-display" class="counter-display">
+			00:00
+		</div>
+		<button class="set-time">
+			<input type="number" id="set-time" class="set-time__input" autofocus max="60" min="0" placeholder="set time in minutes from 0 to 60...">
+		</button>
+		<div class="control-buttons">
+			<button id="start" class="start">
+				<input type="submit" value="start">
+			</button>
+			<button id="pause" class="pause">
+				<input type="submit" value="pause">
+			</button>
+			<button id="reset" class="reset">
+				<input type="submit" value="reset">
+			</button>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	
+	<script src="js/main.min.js"></script>
+</body>
+</html>
+
+
