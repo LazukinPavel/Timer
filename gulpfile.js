@@ -72,7 +72,7 @@ gulp.task('clean', function() {
 //build task
 gulp.task('build', ['sass', 'minifyScripts', 'img'], function() {
 	gulp.src(['src/style/*.css', 'src/js/main.min.js',
-			'src/*.html', 'src/img/**', 'src/fonts/**', 'src/data/**'], { base: './src'})
+			'src/*.html', 'src/img/**', 'src/fonts/**', 'src/audio/**'], { base: './src'})
 			.pipe(gulp.dest('docs'));
 });
 
