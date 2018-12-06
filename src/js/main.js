@@ -37,7 +37,7 @@ class Timer {
 
 var time;
 var timer = new Timer(time);
-var sound = new Audio('../audio/audio.mp3');
+var sound = new Audio('http://d.zaix.ru/9MPe.mp3');
 
 // Buttons
 $("#start").click(function() {	
