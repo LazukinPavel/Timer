@@ -30,8 +30,13 @@ class Timer {
 		}
 	}
 
-	pause() {
+	stop() {
 		clearInterval(this._countdown);
+	}
+
+	reset() {
+		clearInterval(this._countdown);
+		$("#counter-display").text('00:00');
 	}
 }
 
@@ -44,8 +49,12 @@ $("#start").click(function() {
 	timer.start();
 })
 
-$("#pause").click(function() {
-	timer.pause()
+$("#stop").click(function() {
+	timer.stop()
+})
+
+$("#reset").click(function() {
+	timer.reset();
 })
 
 // Input validation
